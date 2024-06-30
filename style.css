@@ -1,0 +1,51 @@
+.teks {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+}
+
+.bold {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.card {
+  background-color: #eaf7ff;
+  border-radius: 10%;
+}
+
+footer {
+  height:fit-content;
+  background-color: #9CBAD4;
+  color: #1B202C;
+  font-size: small;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.dokter {
+  text-align: center;
+  margin: 10px;
+}
+
+.banner {
+  position:relative;
+}
+
+.tent {
+  position:relative;
+}
+
+@media (max-width: 600px) {
+  .visi {
+      display: none;
+  }
+}
